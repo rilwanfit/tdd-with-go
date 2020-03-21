@@ -11,6 +11,6 @@ func Sum(numbers []int) int {
 }
 
 // SumAll which will take a varying number of slices, returning a new slice containing the totals for each slice passed in.
-func SumAll(number1, number2 []int) {
+func SumAll(numbersTosum ...[]int) (sums []int) {
 
 }
