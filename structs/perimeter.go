@@ -17,12 +17,12 @@ func (r Rectangle) Area() float64 {
 }
 
 type Circle struct {
-	Redius float64
+	Radius float64
 }
 
 // Area which returns the area of a circle.
 func (c Circle) Area() float64 {
-	return math.Pi * c.Redius * c.Redius
+	return math.Pi * c.Radius * c.Radius
 }
 
 type Triangle struct {
